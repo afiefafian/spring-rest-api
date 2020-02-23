@@ -35,5 +35,4 @@ public class CarController {
     public void deleteCarById(@PathVariable("id") Long id) {
         carRepository.deleteById(id);
     }
-
 }
